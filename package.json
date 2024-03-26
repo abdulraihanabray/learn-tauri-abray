@@ -13,6 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "tauri": "tauri",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +35,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.11",
+    "cross-env": "^7.0.3"
+  },
+  "resolutions": {
+    "mini-css-exxtract-plugin": "2.4.7"
   }
 }
